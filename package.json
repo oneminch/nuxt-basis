@@ -40,15 +40,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "nuxt": "^4.2.2",
-    "vue": "^3.5.26"
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.27"
   },
   "dependencies": {
     "@nuxt/content": "^3.11.0",
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/image": "^2.0.0",
     "@nuxt/test-utils": "^3.23.0",
-    "@nuxt/ui": "^4.3.0",
+    "@nuxt/ui": "^4.4.0",
     "@tailwindcss/vite": "^4.1.18",
     "better-sqlite3": "^12.6.2",
     "eslint": "^9.39.2",

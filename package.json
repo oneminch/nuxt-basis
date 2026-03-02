@@ -1,7 +1,7 @@
 {
   "name": "@minch/nuxt-basis",
   "description": "A Base Layer for Nuxt Projects.",
-  "version": "0.12.14",
+  "version": "0.12.15",
   "repository": "github:oneminch/nuxt-basis",
   "homepage": "https://github.com/oneminch/nuxt-basis#readme",
   "license": "MIT",
@@ -41,18 +41,18 @@
   },
   "devDependencies": {
     "nuxt": "^4.3.1",
-    "vue": "^3.5.28"
+    "vue": "^3.5.29"
   },
   "dependencies": {
-    "@nuxt/content": "^3.11.2",
-    "@nuxt/eslint": "^1.15.1",
+    "@nuxt/content": "^3.12.0",
+    "@nuxt/eslint": "^1.15.2",
     "@nuxt/image": "^2.0.0",
     "@nuxt/test-utils": "^3.23.0",
-    "@nuxt/ui": "^4.4.0",
-    "@tailwindcss/vite": "^4.1.18",
+    "@nuxt/ui": "^4.5.0",
+    "@tailwindcss/vite": "^4.2.1",
     "better-sqlite3": "^12.6.2",
-    "eslint": "^9.39.2",
-    "tailwindcss": "^4.1.18",
+    "eslint": "^9.39.3",
+    "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@10.23.0"

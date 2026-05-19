@@ -1,12 +1,15 @@
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - '@tailwindcss/oxide'
-  - better-sqlite3
-  - esbuild
-  - sharp
-  - unrs-resolver
-  - vue-demi
+shamefullyHoist: true
+
+strictPeerDependencies: false
+
+allowBuilds:
+  '@parcel/watcher': true
+  '@tailwindcss/oxide': true
+  better-sqlite3: true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  vue-demi: true
 
 overrides:
-  brace-expansion@<5.0.5: '>=5.0.5'
-  serialize-javascript@<=7.0.2: '>=7.0.3'
+  ws@>=8.0.0 <8.20.1: ^8.20.1
